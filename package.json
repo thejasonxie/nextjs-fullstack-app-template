@@ -11,7 +11,7 @@
     "//": "The above yarn setting does not work. Instead, check .yarnrc.yml for solution to block yarn usage"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -29,6 +29,7 @@
     "@types/node": "18.0.1",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
+    "cross-env": "^7.0.3",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
     "husky": "^8.0.1",
