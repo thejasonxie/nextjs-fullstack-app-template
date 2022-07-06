@@ -6,7 +6,7 @@
   "private": true,
   "engines": {
     "node": ">=16.0.0",
-    "npm": ">=8.11.0",
+    "npm": ">=8.5.5",
     "yarn": "please-use-npm",
     "//": "The above yarn setting does not work. Instead, check .yarnrc.yml for solution to block yarn usage"
   },
